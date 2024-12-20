@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ece7cc
+}
+
+div {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  0 4px 4px 3px rgba(176, 181, 150, 0.963); 
+    
+}
+
+h2 {
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #333;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.startbtn {
+    background-color: #4caf50;
+    color: white;
+    box-shadow: 4px 4px rgba(32, 168, 78, 0.5); 
+}
+    
+
+.startbtn:hover {
+    background-color: #237927;
+}
+
+.pausebtn {
+    background-color: #f44336;
+    color: white;
+    box-shadow: 4px 4px rgba(197, 48, 48, 0.5);
+   
+}
+
+.pausebtn:hover {
+    background-color: #a8100d;
+}
+
+.resetbtn {
+    background-color: #ff9800;
+    color: white;
+    box-shadow: 4px 4px rgba(233, 140, 35, 0.5); 
+}
+
+
+.resetbtn:hover {
+    background-color: #c26b00;
+}
+
+.reversebtn {
+    background-color: #2196f3;
+    color: white;
+    box-shadow:   4px 4px rgba(12, 93, 169, 0.5); 
+
+}
+
+.reversebtn:hover {
+    background-color: #0662b3;
+}
